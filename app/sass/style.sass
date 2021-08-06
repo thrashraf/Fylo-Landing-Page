@@ -1,0 +1,534 @@
+@import '_global'
+@import '_variable'
+
+
+.container
+
+    header
+        background-color: $Dark-Blue
+        height: 430px
+        background-image: url('../images/bg-curvy-mobile.svg')
+        background-repeat: no-repeat
+        background-position: bottom
+        background-size: 100%
+        margin-
+        nav
+            text-align: center
+            .nav-container
+                display: flex
+                justify-content: space-between
+                padding: 10px 15px
+                
+                
+
+                .logo
+                    
+                    img
+                        margin-top: 15px
+                        width: 80px
+                    
+
+                .menu
+                    display: flex
+                    
+                    a
+                        font-family: $font-body
+                        text-decoration: none
+                        font-size: 14px
+                        margin-left: 15px
+                        color: $White
+                        margin-top: 15px
+                
+            .intro-image
+                
+                
+                font-family: $font-heading
+                font-size: 12px
+               
+                
+                h1
+                   margin: 0px 
+                    
+                img
+                    width: 70%
+                    margin: 20px
+
+                p
+                    font-family: $font-body
+                    margin: 0px
+                
+                p:first-of-type
+                    margin-top: 20px
+
+
+                button
+                    margin-top: 30px
+                    width: 200px
+                    padding: 10px 40px
+                    border-radius: 30px
+                    border: 3px solid $Blue
+                    background-color: $Blue
+                    font-family: $font-body
+                    color: $White
+                    margin-bottom: 200px
+
+            
+
+    main
+        
+        background-color: $Dark-Blue-Bg
+        height: 400px
+        text-align: center
+        margin: 0px 30px auto
+        position: relative
+        bottom: 40px
+
+        
+
+        .grid-container
+           margin-top: 250px
+
+           h1
+               font-family: $font-heading
+           
+           .item1
+                margin-bottom: 100px
+
+                h1
+                    margin-top: 30px
+                    margin-bottom: 5px
+                    font-size: 20px
+                
+                p   
+                    margin-top: 10px
+                    font-family: $font-body
+                    
+           .item2
+                margin-bottom: 100px
+
+                h1
+                    margin-top: 30px
+                    margin-bottom: 5px
+                    font-size: 20px
+                
+                p   
+                    margin-top: 10px
+                    font-family: $font-body
+            
+           .item3
+                margin-bottom: 100px
+
+                h1
+                    margin-top: 30px
+                    margin-bottom: 5px
+                    font-size: 20px
+                
+                p   
+                    margin-top: 10px
+                    font-family: $font-body
+            
+           .item4
+                margin-bottom: 100px
+
+                h1
+                    margin-top: 30px
+                    margin-bottom: 5px
+                    font-size: 20px
+                
+                p   
+                    margin-top: 10px
+                    font-family: $font-body
+
+        
+
+        .grid-container2
+
+            img
+                width: 100%
+            
+            .qoutes
+                width: 20px
+                position: relative
+                right: 100px
+                top: 110px
+            .productive-container
+
+                margin-top: 30px
+                text-align: start
+
+                
+                h1
+                    font-family: $font-heading
+                    font-size: 20px
+                    text-align: starts
+                
+                p
+                    font-family: $font-body
+                    text-align: start
+                    font-size: 14px
+                    margin-top: 20px
+
+                    
+                
+                a
+                    color: $Blue
+                    text-decoration: none
+                    padding-bottom: 10px
+                    border-bottom: 2px solid $Blue
+
+                    img
+                        width: 20px
+                        position: relative
+                        top: 5px
+                        margin-left: 5px
+
+
+            
+        .grid-container3
+            text-align: start
+            margin-top: 100px
+
+            img
+                text-align: start
+                width: 25px
+                position: relative
+                top: 5px
+                left: 5px
+
+            .qoutes
+                border-radius: 10px
+                margin-bottom: 50px
+                padding: 30px 30px 20px 30px
+                background-color: $Dark-Blue-testimony
+
+                p
+                    font-size: 14px
+
+            .biodata
+                display: flex
+
+                img
+                    width: 30px
+                    height: 30px
+                    border-radius: 50%
+
+                .bio
+                    display: block
+                    margin-left: 20px
+
+                p
+                    font-size: 8px
+
+
+            h1
+                font-family: $font-heading
+                font-size: 12px
+                
+        
+
+        .grid-container4
+
+            margin: auto
+            background-color: $Dark-Blue
+            padding: 30px
+            border-radius: 10px
+
+            h1
+                font-family: $font-heading
+                font-size: 22px
+
+            .call-to-action
+                display: block
+                margin: 40px auto
+
+                input
+                    
+                    border-radius: 40px
+                    border: 2px solid $Dark-Blue
+                    padding: 20px
+                    width: 250px
+
+                button 
+                    width: 250px
+                    border-radius: 40px
+                    border: 2px solid $Blue
+                    background-color: $Blue
+                    color: $White
+                    margin-top: 30px
+                    font-family: $font-heading
+                    padding: 18px
+
+                    
+                       
+        
+
+        .footer-container
+
+            text-align: start
+            margin-top: 100px
+
+            .footer-grid
+
+                margin-top: 50px
+
+                .about
+                    display: grid
+                    grid-template-columns: 10px 300px
+                    margin-bottom: 20px
+                    text-align: start 
+
+
+
+                    p
+                        margin-top: -5px
+                        font-family: $font-body
+                        margin-left: 20px
+
+                .contact
+                   display: block
+
+
+
+
+
+
+@media all and ( min-width:640px)
+
+    .container
+
+        header
+            height: 900px
+            nav
+                margin: 0px 30px
+                .nav-container
+                   
+            
+                    .menu
+                        
+                        a
+                            margin-left: 40px
+
+                    
+                .intro-image
+
+                    
+
+                    h1
+                        font-size: 30px
+                        margin: 0px
+                        
+                        
+                    p
+                        font-size: 15px
+                        margin: 0px
+
+                    img
+                        width: 60%
+                        margin: 20px
+
+
+        main
+            
+            background-color: $Dark-Blue-Bg
+            height: 400px
+            text-align: center
+            margin: 0px 30px auto
+            position: relative
+            bottom: 40px
+
+            .grid-container
+                
+                display: grid
+                grid-template-columns: repeat(2, 1fr )
+                margin: 60px 0px
+
+                .item1
+                    padding: 30px
+
+                .item2
+                    padding: 30px   
+
+                .item3
+                    padding: 30px    
+
+                .item4
+                    padding: 30px     
+
+            .grid-container2
+                display: grid
+                grid-template-columns: 1fr 1fr
+
+                .qoutes
+                    width: 20px
+                    margin: 0px 
+                    position: relative
+                    top: 110px
+                    left: 100px
+
+
+                .productive-container
+                    text-align: start
+                    padding: 0px 10px
+                    margin-left: 20px
+
+                    h1
+                        font-size: 30px
+                        margin: 0px 0px
+
+                    p
+                        font-size: 15px
+
+
+            .grid-container3
+                grid-gap: 30px
+                display: grid
+                grid-template-columns: repeat(3, 1fr)
+                grid-template-rows: 1fr
+                margin-top: 100px
+
+
+            
+            .grid-container4
+                
+
+
+                .call-to-action
+
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    input
+                        width: 500px
+
+                    button
+                        
+                        margin-left: 30px
+                        margin-top: 0px
+
+            
+            .footer-container
+
+                margin: 50px auto
+                #logo
+                        width: 100px
+                
+                
+                .footer
+
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    
+                    .footer-grid
+                        
+                        display: grid
+                        grid-template-columns: repeat(2, 400px)
+                        grid-template-rows: 1fr
+                        
+                        
+                        .address
+                            
+
+                        .call
+                            
+                    
+                        .email
+
+                            grid-column-start: 2
+                            position: relative
+                            bottom: 70px
+                            
+
+
+                        p
+                            margin-left: 50px
+
+    
+@media all and (min-width: 1100px)
+
+    .container
+
+        header
+            nav
+
+                .intro-image
+                    img
+                        width: 700px
+
+                    h1
+                        margin: 0px 
+
+                    p:first-of-type
+                        margin-top: 40px
+
+        main
+            
+            .grid-container
+
+                .item1
+                    padding: 100px 100px 0px 100px
+                
+                .item2
+                    padding: 100px 100px 0px 100px
+                
+                .item3
+                    padding: 0px 100px
+                
+                .item4
+                    padding: 0px 100px
+        
+
+            .grid-container2
+
+                img
+                    margin: 0px 50px
+
+                .productive-container
+
+                    margin: 70px
+
+            .grid-container3
+                margin: 100px 100px
+
+            .grid-container4
+
+                margin: 100px 100px
+
+            .footer-container
+
+                margin: 100px 100px
+
+                
+
+            
+            
+
+        
+          
+
+                    
+
+            
+            
+
+            
+
+                    
+                  
+                
+                
+                
+
+                
+
+
+            
+
+            
+        
+
+
+
+        
+                        
+                    
